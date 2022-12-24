@@ -1,0 +1,318 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!title of the page  -->
+    <!-- <title>Complex-selector</title> -->
+    <!-- stylesheet of page  -->
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <!-- font style of page  -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet"> -->
+    <!-- font awesome  -->
+    <!-- <script src="https://kit.fontawesome.com/53765f52cd.js" crossorigin="anonymous"></script> -->
+<!-- </head> -->
+<!-- <body>
+    <header>
+        <section class="container flex header">
+            <h1>TrackL</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Features</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">About</a>
+                        <a href="#">Help</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="hero-section container">
+            <h2>Track The Learning <br> Process Schedule</h2>
+            <button>Get 30 Days Trial</button>
+            <img src="./assets/hero.png" alt="hero-png">
+       </section>
+    </header>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Complex Selector</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c91808f2e8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container flex item-center">
+        <h4>TrackL</h4>
+        <label class="bar" for="toggle">
+          <i class="fas fa-bars"></i>
+        </label>
+
+        <input type="checkbox" id="toggle" />
+        <nav class="header-nav-menu">
+          <ul class="sub-menu">
+            <li>
+              <a href="#"> Features </a>
+            </li>
+            <li>
+              <a href="#"> Pricing </a>
+            </li>
+
+            <li>
+              <a href="#"> About </a>
+            </li>
+
+            <li>
+              <a href="#"> Help </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero center">
+        <div class="container">
+          <h1>Track The Learning Process Schedule</h1>
+          <button class="btn">Get 30 days trial</button>
+        </div>
+        <div>
+          <img src="assets/hero.png" alt="hero" />
+        </div>
+      </section>
+      <article class="container data-file flex">
+        <div class="item-center">
+          <a href="#.pdf"> <img src="assets/pdf.png" alt="pdf" />PDF file </a>
+        </div>
+        <div class="item-center">
+          <a href="#.doc"> <img src="assets/word.png" alt="pdf" />WORD file </a>
+        </div>
+        <div class="item-center">
+          <a href="#.png">
+            <img src="assets/image.png" alt="pdf" />Image file
+          </a>
+        </div>
+        <div class="item-center">
+          <a href="#.mp4">
+            <img src="assets/video.png" alt="pdf" />video file
+          </a>
+        </div>
+      </article>
+
+      <article class="stats">
+        <div class="container flex">
+          <div class="flex-46 stats-details">
+            <h2>Monitor Your learning and improve it</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+              ullam voluptatum iste, consequatur repellat sequi itaque ratione
+              voluptates culpa quisquam
+            </p>
+            <button class="stats-btn">
+              Learn More
+
+              <div class="left"></div>
+              <div class="right"></div>
+            </button>
+          </div>
+          <div class="flex-46">
+            <img src="assets/learning-graph.png" alt="learning" />
+          </div>
+        </div>
+      </article>
+      <section class="table">
+        <div class="container">
+          <h3>WEEKLY SCORE</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Days</th>
+                <th>Course</th>
+                <th>Score(0-100)</th>
+                <th>Hour Spent</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Monday</td>
+                <td>Product design</td>
+                <td>40</td>
+                <td>2 hours 30 mins</td>
+              </tr>
+              <tr>
+                <td>Tuesday</td>
+                <td>Product design</td>
+                <td>60</td>
+                <td>3 hours 20 mins</td>
+              </tr>
+              <tr>
+                <td>Wednesday</td>
+                <td>Data Science</td>
+                <td>20</td>
+                <td>1 hour 30 mins</td>
+              </tr>
+              <tr>
+                <td>Thrusday</td>
+                <td>UI design</td>
+                <td>60</td>
+                <td>2 hours 20 mins</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td>UX design</td>
+                <td>30</td>
+                <td>2 hours 30 mins</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>Data Science</td>
+                <td>50</td>
+                <td>2 hours 40 mins</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>HTML & CSS</td>
+                <td>70</td>
+                <td>3 hours 30 mins</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <article class="plans">
+        <div class="plan-header">
+          <h2>Join US and let's study with your friends</h2>
+          <div class="center">
+            <span>Monthly</span>
+            <span>
+              <i class="fas fa-toggle-on"></i>
+            </span>
+            <span>Yearly</span>
+          </div>
+        </div>
+        <div class="container flex2">
+          <div class="left-col flex-42">
+            <h5>Basic</h5>
+            <p>
+              It is long established that a reader will be distracted by a
+              readable
+            </p>
+            <p>48</p>
+            <div class="line"></div>
+            <ul>
+              <li class="tick">50 Course a day</li>
+              <li class="tick">4 forums a month</li>
+              <li class="tick">16 chapter a day</li>
+              <li class="cross">Private lessons a week</li>
+              <li class="cross">Get weekly rewards</li>
+            </ul>
+            <button class="basic-btn plan-btn">Get Started</button>
+          </div>
+
+          <div class="left-col flex-42">
+            <h5>Most Popular</h5>
+            <p>
+              It is long established that a reader will be distracted by a
+              readable
+            </p>
+
+            <p>58</p>
+            <div class="line"></div>
+            <ul>
+              <li class="tick">50 Course a day</li>
+              <li class="tick">4 forums a month</li>
+              <li class="tick">16 chapter a day</li>
+              <li class="tick">Private lessons a week</li>
+              <li class="tick">Get weekly rewards</li>
+            </ul>
+            <button class="popular-btn plan-btn">Get Started</button>
+          </div>
+        </div>
+      </article>
+      <article class="start container center">
+        <h2>Start Your 30days free trial</h2>
+        <button>Get Started</button>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <article class="container flex1">
+        <div class="flex-22">
+          <h6 class="footer-brand">TrackL</h6>
+          <p>Far far away, behind the word mountains, far from the.</p>
+          <nav>
+            <ul class="flex2">
+              <li>
+                <a href="https://facebook.com">
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com">
+                  <i class="fab fa-twitter-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://instagram.com">
+                  <i class="fab fa-instagram-square"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <nav class="flex-22">
+          <h6>Features</h6>
+          <ul>
+            <li>
+              <a href="#"> Calendar </a>
+            </li>
+            <li>
+              <a href="#"> Forum </a>
+            </li>
+            <li>
+              <a href="#"> Messanger </a>
+            </li>
+            <li>
+              <a href="#"> Schedule </a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="flex-22">
+          <h6>Support</h6>
+          <ul>
+            <li>
+              <a href="#"> About Us </a>
+            </li>
+            <li>
+              <a href="#"> Career </a>
+            </li>
+            <li>
+              <a href="#"> FAQs </a>
+            </li>
+            <li>
+              <a href="#"> Security </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="flex-22">
+          <h6>Contact</h6>
+          <p>hello@track.gmail.com +(00 123456787890)</p>
+        </div>
+      </article>
+    </footer>
+  </body>
+</html>
